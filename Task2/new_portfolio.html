@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.canva.com/design/DAFwUcHSUbE/D-YrFLPhejGZtv5G80X9nA/edit?utm_content=DAFwUcHSUbE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" rel="stylesheet">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #a28089;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #51e2f5;
+            color: #bf4aa8;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        header .logo img {
+            max-width: 50px;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        header .logo:hover img {
+            opacity: 1;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #ffa8B6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #edf756;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333; 
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul.skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul.skills li {
+            background-color: #ffa8B6;
+            color: #fff;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .project-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-bottom: 5px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            header nav ul {
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            header nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Arundhati Panwar <img src=""WhatsApp Image 2023-09-25 at 9.23.14 PM.jpeg"" alt="Your Image"></div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am Arundhati, an aspiring software engineer currently pursuing a Bachelor's degree in Computer Science and Engineering. Explore my portfolio to see some of my exciting web projects!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Plant Selling Website</li>
+                <li>Calculator</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: <a href="mailto:panwarkush95@gmail.com">panwarkush95@gmail.com</a></li>
+                <li>Phone: +91 8815-394-249</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Arundhati Panwar</p>
+        </div>
+    </footer>
+</body>
+</html>
